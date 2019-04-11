@@ -10,7 +10,7 @@ Installing Arch with UEFI+GPT.
 Make sure you have following partions:
 
 /dev/sda1   512M   Linux_Filesystem     (It is UEFI partition , where bootloader is installled)
-/dev/sda2   >20G   Linux_Filesystem     (/ Root Partition Table)
+/dev/sda2   >20G   Linux_Filesystem     (/)
 /dev/sda3   Rest   Linux_Filesystem     (/home)
 
 "
