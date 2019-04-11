@@ -1,0 +1,42 @@
+name: user-bot
+channels:
+  - defaults
+dependencies:
+  - ca-certificates=2019.1.23=0
+  - certifi=2019.3.9=py37_0
+  - libedit=3.1.20181209=hc058e9b_0
+  - libffi=3.2.1=hd88cf55_4
+  - libgcc-ng=8.2.0=hdf63c60_1
+  - libstdcxx-ng=8.2.0=hdf63c60_1
+  - ncurses=6.1=he6710b0_1
+  - openssl=1.1.1b=h7b6447c_1
+  - pip=19.0.3=py37_0
+  - python=3.7.3=h0371630_0
+  - readline=7.0=h7b6447c_5
+  - setuptools=40.8.0=py37_0
+  - sqlite=3.27.2=h7b6447c_0
+  - tk=8.6.8=hbc83047_0
+  - wheel=0.33.1=py37_0
+  - xz=5.2.4=h14c3975_4
+  - zlib=1.2.11=h7b6447c_3
+  - pip:
+    - backcall==0.1.0
+    - decorator==4.4.0
+    - ipython==7.4.0
+    - ipython-genutils==0.2.0
+    - jedi==0.13.3
+    - parso==0.4.0
+    - pexpect==4.6.0
+    - pickleshare==0.7.5
+    - prompt-toolkit==2.0.9
+    - ptyprocess==0.6.0
+    - pyaes==1.6.1
+    - pyasn1==0.4.5
+    - pygments==2.3.1
+    - rsa==4.0
+    - six==1.12.0
+    - telethon==1.6.2
+    - traitlets==4.3.2
+    - wcwidth==0.1.7
+prefix: /home/raghav/miniconda3/envs/user-bot
+
