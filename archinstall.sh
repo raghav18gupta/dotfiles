@@ -9,7 +9,7 @@ echo "
 Installing Arch with UEFI+GPT.
 Make sure you have following partions:
 
-/dev/sda1   512M   Linux_Filesystem     (It is UEFI partition , where bootloader is installled)
+/dev/sda1   512M   Linux_Filesystem     (UEFI Bootloader)
 /dev/sda2   >20G   Linux_Filesystem     (/)
 /dev/sda3   Rest   Linux_Filesystem     (/home)
 
@@ -45,9 +45,10 @@ lsblk
 vared -p "Press any key to install base and base-devel: " -c tmp
 pacstrap -i /mnt base base-devel
 genfstab -U -p /mnt >> /mnt/etc/fstab
-vared -p "Press any key to enter in newly installed system using
-arch-chroot /mnt /bin/bash: " -c tmp
+vared -p "Press any key to enter in newly installed system" -c tmp
+arch-chroot /mnt /bin/bash
 clear
+sudo pacman -Syu
 
 # ----- generate locale.gen -----
 echo "Uncomment 'en_US.UTF-8 UTF-8' in nano editor"
@@ -63,11 +64,12 @@ hwclock --systohc --utc
 # ----- set hostname -----
 vared -p "Please give a good host-name for your PC: " -c host
 echo $host > /etc/hostname
-echo "127.0.1.1 localhost.localdomain $host" >> /etc/hosts
+echo "
+127.0.1.1 localhost.localdomain $host" >> /etc/hosts
 
 # ----- Install important packages -----
 vared -p "Press any key to install networkmanager: " -c tmp
-pacman -S networkmanager
+pacman -S networkmanager zsh
 systemctl enable NetworkManager
 
 # ----- Set root password -----
