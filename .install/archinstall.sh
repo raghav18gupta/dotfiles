@@ -3,9 +3,11 @@
 # https://www.youtube.com/watch?v=dOXYZ8hKdmc&t=1400s                       #
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
-# # # # Download this script: # # # # #
+# # # # How to use this script: # # # #
 # $ wget bit.ly/archinstaller         #
 # $ mv archinstaller archinstaller.sh #
+# $ chmod 777 archinstaller.sh        #
+# $ ./archinstaller.sh                #
 # # # # # # # # # # # # # # # # # # # #
 
 # ----- Syncronize -----
@@ -22,17 +24,17 @@ Make sure you have following partions:
 /dev/sda3   Rest   Linux_Filesystem     (/home)
 
 "
-vared -p "Press any key to run 'cfdisk /dev/sda': " -c tmp
+read "?Press enter to run 'cfdisk /dev/sda': "
 cfdisk /dev/sda
 clear
 
 # ----- Partition Formatting -----
-vared -p "Do you want to formate the partions by running:
+read "ask?Do you want to formate the partions by running:
 mkfs.fat -F32 /dev/sda1
 mkfs.ext4 /dev/sda2
 mkfs.ext4 /dev/sda3
 
-Type y/anything else: " -c ask
+Type y/enter(no): "
 if [ $ask = 'y' ];
 then
     mkfs.fat -F32 /dev/sda1
@@ -50,17 +52,17 @@ echo "done!"
 lsblk
 
 # ----- install `base` and `base-devel` -----
-vared -p "Press any key to install base and base-devel: " -c tmp
+read "?Press enter to install base and base-devel: "
 pacstrap -i /mnt base base-devel
 genfstab -U -p /mnt >> /mnt/etc/fstab
-vared -p "Press any key to enter in newly installed system" -c tmp
+read "?Press enter to enter in newly installed system"
 arch-chroot /mnt /bin/bash
 clear
 sudo pacman -Syu
 
 # ----- generate locale.gen -----
 echo "Uncomment 'en_US.UTF-8 UTF-8' in nano editor"
-vared -p "Press any key if you are ready: " -c tmp
+read "?Press enter if you are ready: "
 nano /etc/locale.gen
 locale-gen
 
@@ -70,7 +72,7 @@ ls -sf /usr/share/zoneinfo/Asia/Kolkata /etc/localtime
 hwclock --systohc --utc
 
 # ----- set hostname -----
-vared -p "Please give a good host-name for your PC: " -c host
+read "host?Please give a good host-name for your PC: "
 echo $host > /etc/hostname
 echo "
 127.0.1.1 localhost.localdomain $host
@@ -79,12 +81,12 @@ echo "
 " >> /etc/hosts
 
 # ----- Install important packages -----
-vared -p "Press any key to install networkmanager: " -c tmp
+read "?Press enter to install important packages: "
 pacman -S networkmanager zsh
 systemctl enable NetworkManager
 
 # ----- Set root password -----
-vared -p "Set root password: " -c tmp
+read "?Set root password, press enter: "
 passwd
 clear
 
@@ -105,6 +107,6 @@ exit
 echo "Arch Installation is completed!!!!
 You can reboot and login as a root for now
 "
-vared -p "Press any key to reboot: " -c tmp
+read "?Press enter to reboot: "
 umount -R /mnt
 reboot
