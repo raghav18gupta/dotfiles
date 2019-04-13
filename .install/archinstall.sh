@@ -1,4 +1,12 @@
-# first connect to the internet
+# # # # # # # # # # # # # # # # # # Resources # # # # # # # # # # # # # # # #
+# https://dev.to/siatwe/install-a-minimal-arch-linux-in-half-an-hour--1l6p  #
+# https://www.youtube.com/watch?v=dOXYZ8hKdmc&t=1400s                       #
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+# # # # Download this script: # # # # #
+# $ wget bit.ly/archinstaller         #
+# $ mv archinstaller archinstaller.sh #
+# # # # # # # # # # # # # # # # # # # #
 
 # ----- Syncronize -----
 sudo pacman -Syu
@@ -65,7 +73,10 @@ hwclock --systohc --utc
 vared -p "Please give a good host-name for your PC: " -c host
 echo $host > /etc/hostname
 echo "
-127.0.1.1 localhost.localdomain $host" >> /etc/hosts
+127.0.1.1 localhost.localdomain $host
+127.0.0.1 localhost.localdomain localhost
+::1 localhost.localdomain localhost
+" >> /etc/hosts
 
 # ----- Install important packages -----
 vared -p "Press any key to install networkmanager: " -c tmp
