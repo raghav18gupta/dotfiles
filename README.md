@@ -101,7 +101,7 @@
 	- Cursor : [Bibata Ice](https://www.gnome-look.org/p/1197198/)
 	- Icons : [Paper](https://github.com/snwh/paper-icon-theme)
 
-- Extentions
+- GNOME Extentions
 	- [Simple Net Speed](https://extensions.gnome.org/extension/1085/simple-net-speed/)
 	- [Dash to panel](https://extensions.gnome.org/extension/1160/dash-to-panel/)
 	- [Desktop Icons](https://extensions.gnome.org/extension/1465/desktop-icons/)
