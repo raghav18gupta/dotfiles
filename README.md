@@ -119,6 +119,13 @@
 - Keyboard
 	- `Tweaks> Keyboard and Mouse>Additional Layout options>Miscellaneous compatibility options>"Num Lock on: digits; Shift for arrow keys. Num Lock off: arrow keys (as in Windows)"`
 
+- Git
+
+	- `git config --global user.email "18raghavgupta@gmail.com"`
+	- `git config --global user.name "raghav18gupta"`
+	- `git config credential.helper store`
+	- `git config --global credential.helper 'cache --timeout=9999999999999'`
+
 
 ## Conda Env: Project Dependencies
 - [green-corridor](https://github.com/raghav18gupta/green-corridor-v2)
