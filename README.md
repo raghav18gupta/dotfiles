@@ -37,24 +37,24 @@
 	- `ttf-indic-otf`
 	- `ttf-liberation`
 	- `ttf-ubuntu-font-family`
-	- `ttf-emojione` <sup>*AUR*</sup>
+	- `ttf-emojione` <sup><sup>*AUR*</sup></sup>
 
 - Browsers
 	- `chromium`
 	- `firefox`
-	- `tor-browser-en` <sup>*AUR*</sup>
+	- `tor-browser-en` <sup><sup>*AUR*</sup></sup>
 
 - Eyecandy
 	- `gnome`
 	- `neofetch`
 	- `chrome-gnome-shell`
-	- `gnome-appfolders-manager` <sup>*AUR*</sup>
+	- `gnome-appfolders-manager` <sup><sup>*AUR*</sup></sup>
 
 - Creativity
 	- `dia`
 	- `gimp`
-	- `inkscape-git` <sup>*AUR*</sup>
-	- `gravit-designer-bin` <sup>*AUR*</sup>
+	- `inkscape-git` <sup><sup>*AUR*</sup></sup>
+	- `gravit-designer-bin` <sup><sup>*AUR*</sup></sup>
 
 - CLI Tools
 	- `zsh`
@@ -63,23 +63,23 @@
 	- `ranger`
 	- `tree`
 	- `bc`
-	- `yay` <sup>*AUR*</sup>
-	- `heroku-cli` <sup>*AUR*</sup>
+	- `yay` <sup><sup>*AUR*</sup></sup>
+	- `heroku-cli` <sup><sup>*AUR*</sup></sup>
 
 - Programming Tools
 	- `eclipse-java`
 	- `pycharm-community-edition`
-	- `sublime-text` <sup>*[Sublime's Repo](https://www.sublimetext.com/docs/3/linux_repositories.html#pacman)*</sup>
+	- `sublime-text` <sup><sup>*[Sublime's Repo](https://www.sublimetext.com/docs/3/linux_repositories.html#pacman)*</sup></sup>
 
 - Miscellaneous Tools
 	- `filezilla`
 	- `gparted`
 	- `gnome-mpv`
 	- `simplescreenrecorder`
-	- `teamviewer` <sup>*AUR*</sup>
-	- `realvnc-vnc-viewer` <sup>*AUR*</sup>
-	- `wps-office` <sup>*AUR*</sup>
-	- `transmission-gtk-git` <sup>*AUR*</sup>
+	- `teamviewer` <sup><sup>*AUR*</sup></sup>
+	- `realvnc-vnc-viewer` <sup><sup>*AUR*</sup></sup>
+	- `wps-office` <sup><sup>*AUR*</sup></sup>
+	- `transmission-gtk-git` <sup><sup>*AUR*</sup></sup>
 
 - Remove these bloated package after installing above.
 	- `totem`
