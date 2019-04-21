@@ -79,3 +79,10 @@
 	- `realvnc-vnc-viewer` <sup>AUR</sup>
 	- `wps-office` <sup>AUR</sup>
 	- `transmission-gtk-git` <sup>AUR</sup>
+
+- Remove these bloated package after installing above.
+	- `totem`
+	- `orca`
+	- `gnome-getting-started-docs`
+	- `gnome-user-docs`
+	- `gnome-software`
