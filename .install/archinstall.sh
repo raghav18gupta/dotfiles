@@ -10,6 +10,8 @@
 # $ ./archinstaller.sh                #
 # # # # # # # # # # # # # # # # # # # #
 
+# This script is buggy and not tested yet
+
 # ----- Syncronize -----
 sudo pacman -Syu
 clear
