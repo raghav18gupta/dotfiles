@@ -86,3 +86,8 @@
 	- `gnome-getting-started-docs`
 	- `gnome-user-docs`
 	- `gnome-software`
+
+
+## My zsh Rice
+
+![neofetch](https://raw.githubusercontent.com/raghav18gupta/dotfiles/master/imgs/neofetch-ss.png)
