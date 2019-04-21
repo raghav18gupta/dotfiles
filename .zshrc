@@ -19,6 +19,6 @@ export GOOGLE_APPLICATION_CREDENTIALS=~/Desktop/gitHub/projects/green-corridor-v
 # ------ alias/functions ------
 gacp(){
 	git add .
-	git commit -m $1
+	git commit -m "$1"
 	git push origin master
 }
