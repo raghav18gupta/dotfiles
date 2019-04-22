@@ -1,4 +1,5 @@
-# Dot-Files
+# There is a systematic [wiki](https://github.com/raghav18gupta/dotfiles/wiki) of this Repo. This README is just summing up all.
+
 
 ```
                    -`
@@ -161,3 +162,21 @@
 - [naidunia](https://github.com/raghav18gupta/naidunia-epaper-downloder)
 	- `telegram`
 	- `PyPDF2`
+
+## Canon LBP2900 Installation 
+- One time:
+    - [Enable `multilib` by uncommenting below lines in `/etc/pacman.conf`](https://github.com/raghav18gupta/dotfiles/blob/master/.zshrc#L26)
+    ```
+        [multilib]
+        Include = /etc/pacman.d/mirrorlist
+    ```
+    - `sudo pacman -S cups`
+    - `yay capt-src`
+    - `sudo gpasswd -a raghav lp cups`
+    - `reboot`
+
+- Every time you connect the printer (See [`printer_setup()`](https://github.com/raghav18gupta/dotfiles/blob/master/.zshrc)):
+    - `systemctl restart org.cups.cupsd.service`
+    - `sudo /usr/bin/lpadmin -p LBP2900 -m CNCUPSLBP2900CAPTK.ppd -v ccp://localhost:59687 -E `
+    - `/usr/bin/ccpdadmin -p LBP2900 -o /dev/usb/lp0`
+    - `systemctl restart ccpd.service`
