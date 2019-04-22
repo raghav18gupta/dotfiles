@@ -93,6 +93,9 @@
 	- `gconf-editor`
 	- `ntfs-3g`
 
+- Printer
+	- `cups`
+	- `capt-src` <sup><sup>*AUR*, [*Multilib*](https://github.com/raghav18gupta/dotfiles/blob/master/pacman.conf)</sup></sup>
 
 ## Configs:
 - Themes
