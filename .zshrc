@@ -27,16 +27,16 @@ printer_setup(){
 	setopt +o nomatch
 	for f in /dev/usb/lp*; do
 		if [ -e "$f" ]; then
-				echo "Restarting org.cups.cupsd.service..."
-				sudo systemctl restart org.cups.cupsd.service
-				echo "Configuring printer..."
-				sudo /usr/bin/lpadmin -p LBP2900 -m CNCUPSLBP2900CAPTK.ppd -v ccp://localhost:59687 -E
-				sudo /usr/bin/ccpdadmin -p LBP2900 -o $f
-				echo "Restarting ccpd.service..."
-				sudo systemctl restart ccpd.service
-				echo "Done!"
-			else
-				echo "Looks like No printer attached"
+			echo "Restarting org.cups.cupsd.service..."
+			sudo systemctl restart org.cups.cupsd.service
+			echo "Configuring printer..."
+			sudo /usr/bin/lpadmin -p LBP2900 -m CNCUPSLBP2900CAPTK.ppd -v ccp://localhost:59687 -E
+			sudo /usr/bin/ccpdadmin -p LBP2900 -o $f
+			echo "Restarting ccpd.service..."
+			sudo systemctl restart ccpd.service
+			echo "Done!"
+		else
+			echo "Looks like No printer attached"
 		fi
 		break
 	done
