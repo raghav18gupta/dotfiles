@@ -126,7 +126,7 @@
 	- `git config credential.helper store`
 	- `git config --global credential.helper 'cache --timeout=9999999999999'`
 
-- Swap File
+- ### [Swap File](https://access.redhat.com/solutions/103833)
 	- `sudo fallocate -l 4G /swapfile`
 	- `sudo chmod 600 /swapfile`
 	- `sudo mkswap /swapfile`
@@ -138,7 +138,11 @@
 		```
 	- Check status: `sudo free -h`
 	- Check swappiness: `cat /proc/sys/vm/swappiness`. Default is `60`.
-	- Change swappiness: Add line `vm.swappiness=50` in `/etc/sysctl.conf`
+	- Change swappiness: Create file `/etc/sysctl.d/swappiness.conf`  and add line `vm.swappiness=50`.
+	- Remove/Edit Swap File:
+		- First deactivate it: `sudo swapoff -v /swapfile`
+		- Delete: `sudo rm /swapfile`
+		- Remove swap entries in `/etc/fstab`
 	
 ## Conda Env: Project Dependencies
 - [green-corridor](https://github.com/raghav18gupta/green-corridor-v2)
