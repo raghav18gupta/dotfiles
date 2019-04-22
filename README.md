@@ -96,7 +96,7 @@
 
 - Printer
 	- `cups`
-	- `capt-src` <sup><sup>*AUR*, [*Multilib*](https://github.com/raghav18gupta/dotfiles/blob/master/pacman.#93)</sup></sup>
+	- `capt-src` <sup><sup>*AUR*, [*Multilib*](https://github.com/raghav18gupta/dotfiles/blob/master/pacman.conf#93)</sup></sup>
 
 ## Configs:
 - Themes
