@@ -74,6 +74,7 @@
 
 - Miscellaneous Tools
 	- `filezilla`
+	- `brasero`
 	- `gparted`
 	- `gnome-mpv`
 	- `simplescreenrecorder`
