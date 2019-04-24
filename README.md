@@ -100,11 +100,12 @@
 	- `capt-src` <sup><sup>*AUR*, [*Multilib*](https://github.com/raghav18gupta/dotfiles/blob/master/pacman.conf#L93)</sup></sup>
 
 ## Configs:
-- Themes
-	- GTK3: [Flat Remix GTK Blue Darkest (solid & noBorder)](https://www.gnome-look.org/p/1214931/)
-	- Shell : [Flat Remix Darkest (fullPanel)](https://www.gnome-look.org/p/1013030/)
-	- Cursor : [Bibata Ice](https://www.gnome-look.org/p/1197198/)
-	- Icons : [Paper](https://github.com/snwh/paper-icon-theme)
+
+# Themes
+- GTK3: [Flat-Remix-GTK-Blue-Darkest-Solid-NoBorder](https://github.com/daniruiz/flat-remix-gtk/tree/master/Flat-Remix-GTK-Blue-Darkest-Solid-NoBorder)
+- Shell : [Flat-Remix-Darkest-fullPanel](https://github.com/daniruiz/flat-remix-gnome/tree/master/Flat-Remix-Darkest-fullPanel)
+- Cursor : [Bibata Ice](https://www.gnome-look.org/p/1197198/)
+- Icons : [Paper](https://github.com/snwh/paper-icon-theme)
 
 - GNOME Extentions
 	- [Simple Net Speed](https://extensions.gnome.org/extension/1085/simple-net-speed/)
