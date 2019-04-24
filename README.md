@@ -101,11 +101,11 @@
 
 ## Configs:
 
-# Themes
-- GTK3: [Flat-Remix-GTK-Blue-Darkest-Solid-NoBorder](https://github.com/daniruiz/flat-remix-gtk/tree/master/Flat-Remix-GTK-Blue-Darkest-Solid-NoBorder)
-- Shell : [Flat-Remix-Darkest-fullPanel](https://github.com/daniruiz/flat-remix-gnome/tree/master/Flat-Remix-Darkest-fullPanel)
-- Cursor : [Bibata Ice](https://www.gnome-look.org/p/1197198/)
-- Icons : [Paper](https://github.com/snwh/paper-icon-theme)
+- Themes
+	- GTK3: [Flat-Remix-GTK-Blue-Darkest-Solid-NoBorder](https://github.com/daniruiz/flat-remix-gtk/tree/master/Flat-Remix-GTK-Blue-Darkest-Solid-NoBorder)
+	- Shell : [Flat-Remix-Darkest-fullPanel](https://github.com/daniruiz/flat-remix-gnome/tree/master/Flat-Remix-Darkest-fullPanel)
+	- Cursor : [Bibata Ice](https://www.gnome-look.org/p/1197198/)
+	- Icons : [Paper](https://github.com/snwh/paper-icon-theme)
 
 - GNOME Extentions
 	- [Simple Net Speed](https://extensions.gnome.org/extension/1085/simple-net-speed/)
