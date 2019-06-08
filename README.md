@@ -54,8 +54,7 @@
 - Creativity
 	- `dia`
 	- `gimp`
-	- `inkscape-git` <sup><sup>*AUR*</sup></sup>
-	- `gravit-designer-bin` <sup><sup>*AUR*</sup></sup>
+	- `inkscape`
 
 - CLI Tools
 	- `zsh`
@@ -77,10 +76,10 @@
 	- `brasero`
 	- `gparted`
 	- `gnome-mpv`
+	- `libreoffice-fresh`
 	- `simplescreenrecorder`
 	- `teamviewer` <sup><sup>*AUR*</sup></sup>
 	- `realvnc-vnc-viewer` <sup><sup>*AUR*</sup></sup>
-	- `wps-office` <sup><sup>*AUR*</sup></sup>
 	- `transmission-gtk-git` <sup><sup>*AUR*</sup></sup>
 
 - Remove these bloated package after installing above.
