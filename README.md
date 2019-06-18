@@ -76,11 +76,11 @@
 	- `brasero`
 	- `gparted`
 	- `gnome-mpv`
+	- `transmission-gtk`
 	- `libreoffice-fresh`
 	- `simplescreenrecorder`
 	- `teamviewer` <sup><sup>*AUR*</sup></sup>
 	- `realvnc-vnc-viewer` <sup><sup>*AUR*</sup></sup>
-	- `transmission-gtk-git` <sup><sup>*AUR*</sup></sup>
 
 - Remove these bloated package after installing above.
 	- `totem`
@@ -88,6 +88,7 @@
 	- `gnome-getting-started-docs`
 	- `gnome-user-docs`
 	- `gnome-software`
+	- `gnome-music`
 
 - Not using for now:
 	- `uget`

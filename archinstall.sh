@@ -1,5 +1,6 @@
 # # # # # # # # # # # # # # # # # # Resources # # # # # # # # # # # # # # # #
 # https://dev.to/siatwe/install-a-minimal-arch-linux-in-half-an-hour--1l6p  #
+# averagelinuxuser.com/a-step-by-step-arch-linux-installation-guide/        #
 # https://www.youtube.com/watch?v=dOXYZ8hKdmc&t=1400s                       #
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
@@ -12,8 +13,8 @@
 
 # This script is buggy and not tested yet
 
-# ----- Syncronize -----
-sudo pacman -Syu
+# ----- Synchronizing package databases without upgrading them -----
+pacman -Syy
 clear
 
 # ----- Disk Partion -----
