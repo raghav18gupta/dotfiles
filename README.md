@@ -63,6 +63,7 @@
 	- `ranger`
 	- `tree`
 	- `bc`
+	- `docker`
 	- `yay` <sup><sup>*AUR*</sup></sup>
 	- `heroku-cli` <sup><sup>*AUR*</sup></sup>
 
