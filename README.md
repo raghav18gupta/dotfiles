@@ -43,7 +43,7 @@
 - Browsers
 	- `chromium`
 	- `firefox`
-	- `tor-browser-en` <sup><sup>*AUR*</sup></sup>
+	- `tor-browser` <sup><sup>*AUR*</sup></sup>
 
 - Eyecandy
 	- `gnome`
