@@ -35,10 +35,10 @@
 	- `noto-fonts-emoji`
 	- `noto-fonts-extra`
 	- `ttf-dejavu`
+	- `ttf-joypixels`
 	- `ttf-indic-otf`
 	- `ttf-liberation`
 	- `ttf-ubuntu-font-family`
-	- `ttf-emojione` <sup><sup>*AUR*</sup></sup>
 
 - Browsers
 	- `chromium`
