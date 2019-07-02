@@ -98,6 +98,9 @@
 	- `cups`
 	- `capt-src` <sup><sup>*AUR*, [*Multilib*](https://github.com/raghav18gupta/dotfiles/blob/master/pacman.conf#L93)</sup></sup>
 
+- Fonts
+	- `sudo ln -sf /etc/fonts/conf.avail/75-joypixels.conf /etc/fonts/conf.d/75-joypixels.conf`
+
 ## Configs:
 
 - Themes
