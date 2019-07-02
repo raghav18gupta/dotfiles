@@ -32,12 +32,10 @@
 - Fonts
 	- `noto-fonts`
 	- `noto-fonts-cjk`
-	- `noto-fonts-emoji`
 	- `noto-fonts-extra`
 	- `ttf-dejavu`
 	- `ttf-joypixels`
 	- `ttf-indic-otf`
-	- `ttf-liberation`
 	- `ttf-ubuntu-font-family`
 
 - Browsers
