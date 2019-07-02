@@ -29,7 +29,7 @@
 
 ## Packages I use:
 
-- Fonts
+- Fonts ([Check fonts in browser](https://github.com/LukeSmithxyz/voidrice/blob/8c0c5ae01157b8fbab0361cb9b33acc81eee3c2c/.config/emoji))
 	- `noto-fonts`
 	- `noto-fonts-cjk`
 	- `noto-fonts-extra`
