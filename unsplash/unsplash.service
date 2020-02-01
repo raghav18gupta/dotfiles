@@ -3,4 +3,4 @@ Description=Apply random unsplash wallpaper
 
 [Service]
 Type=simple
-ExecStart=/bin/unsplash.sh
+ExecStart=/bin/unsplash/unsplash.sh
