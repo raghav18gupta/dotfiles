@@ -40,7 +40,7 @@
 
 - Browsers
 	- `chromium`
-	- `firefox`
+	- `firefoxfirefox-developer-edition`
 	- `tor-browser` <sup><sup>*AUR*</sup></sup>
 
 - Eyecandy
@@ -66,8 +66,8 @@
 	- `heroku-cli` <sup><sup>*AUR*</sup></sup>
 
 - Programming Tools
-	- `eclipse-java`
 	- `pycharm-community-edition`
+	- `visual-studio-code-insiders` <sup><sup>*AUR*</sup></sup>
 	- `sublime-text` <sup><sup>*[Sublime's Repo](https://www.sublimetext.com/docs/3/linux_repositories.html#pacman)*</sup></sup>
 
 - Miscellaneous Tools
@@ -80,6 +80,7 @@
 	- `simplescreenrecorder`
 	- `teamviewer` <sup><sup>*AUR*</sup></sup>
 	- `realvnc-vnc-viewer` <sup><sup>*AUR*</sup></sup>
+	- `dpkg` https://thoptv.download/thoptv-for-linux/
 
 - Remove these bloated package after installing above.
 	- `totem`
@@ -93,6 +94,7 @@
 	- `uget`
 	- `gconf-editor`
 	- `ntfs-3g`
+	- `eclipse-java`
 
 - Printer
 	- `cups`
@@ -184,3 +186,9 @@
     - `sudo /usr/bin/lpadmin -p LBP2900 -m CNCUPSLBP2900CAPTK.ppd -v ccp://localhost:59687 -E `
     - `/usr/bin/ccpdadmin -p LBP2900 -o /dev/usb/lp0`
     - `systemctl restart ccpd.service`
+
+## Unsplash random wallpaers:
+	- Put `unsplash.service` and `unsplash.timer` in `/etc/systemd/system/`
+	- Enable only `unsplash.timer`
+	- *Specific category*: /1600x900?Cat1,Cat2
+
