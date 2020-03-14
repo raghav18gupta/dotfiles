@@ -78,6 +78,7 @@
 	- `transmission-gtk`
 	- `libreoffice-fresh`
 	- `simplescreenrecorder`
+	- `popcorntime` <sup><sup>*AUR*</sup></sup>
 	- `teamviewer` <sup><sup>*AUR*</sup></sup>
 	- `realvnc-vnc-viewer` <sup><sup>*AUR*</sup></sup>
 	- `dpkg` https://thoptv.download/thoptv-for-linux/
