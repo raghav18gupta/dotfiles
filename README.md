@@ -74,7 +74,8 @@
 	- `filezilla`
 	- `brasero`
 	- `gparted`
-	- `gnome-mpv`
+	- `celluloid`
+	- `suitesparse`
 	- `transmission-gtk`
 	- `libreoffice-fresh`
 	- `simplescreenrecorder`
