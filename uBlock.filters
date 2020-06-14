@@ -1,0 +1,8 @@
+! 6/14/2020 https://www.facebook.com
+www.facebook.com##div[data-pagelet="FeedUnit_{n}"]:has(span:has-text(/^[Suggested for you]{9,}$/))
+
+! 6/14/2020 indianexpress.com
+
+! 6/14/2020 https://indianexpress.com
+indianexpress.com##footer
+indianexpress.com##div[id="append_breaking_box"]
