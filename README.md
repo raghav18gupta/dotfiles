@@ -42,6 +42,10 @@
 	- `chromium`
 	- `firefoxfirefox-developer-edition`
 	- `tor-browser` <sup><sup>*AUR*</sup></sup>
+	
+- Social
+	- `telegram-desktop`
+	- `discord`
 
 - Eyecandy
 	- `gnome`
