@@ -33,7 +33,6 @@
 	- `noto-fonts`
 	- `noto-fonts-cjk`
 	- `noto-fonts-extra`
-	- `ttf-dejavu`
 	- `ttf-joypixels`
 	- `ttf-indic-otf`
 	- `ttf-ubuntu-font-family`
@@ -101,6 +100,7 @@
 	- `gconf-editor`
 	- `ntfs-3g`
 	- `eclipse-java`
+	- `ttf-dejavu` - Messing up with Emojis
 
 - Printer
 	- `cups`
