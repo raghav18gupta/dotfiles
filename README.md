@@ -72,6 +72,14 @@
 	- `pycharm-community-edition`
 	- `visual-studio-code-insiders` <sup><sup>*AUR*</sup></sup>
 	- `sublime-text` <sup><sup>*[Sublime's Repo](https://www.sublimetext.com/docs/3/linux_repositories.html#pacman)*</sup></sup>
+	
+- Remote Desktop Connection
+	- `remmina`
+	- `freerdp`
+	- `libvncserver`
+	- `rdesktop`
+	- `parcellite`
+	- `xdotool`
 
 - Miscellaneous Tools
 	- `filezilla`
