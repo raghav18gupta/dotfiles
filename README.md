@@ -140,6 +140,9 @@
 	- Package Control
 	- Side Bar
 
+- Firefox config
+	- `toolkit.tabbox.switchByScrolling`: `true`
+
 - Keyboard
 	- `Tweaks> Keyboard and Mouse>Additional Layout options>Miscellaneous compatibility options>"Num Lock on: digits; Shift for arrow keys. Num Lock off: arrow keys (as in Windows)"`
 
