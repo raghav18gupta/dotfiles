@@ -114,9 +114,6 @@
 	- `cups`
 	- `capt-src` <sup><sup>*AUR*, [*Multilib*](https://github.com/raghav18gupta/dotfiles/blob/master/pacman.conf#L93)</sup></sup>
 
-- Fonts
-	- `sudo ln -sf /etc/fonts/conf.avail/75-joypixels.conf /etc/fonts/conf.d/75-joypixels.conf`
-
 ## Configs:
 
 - Themes
@@ -152,6 +149,9 @@
 	- `git config --global user.name "raghav18gupta"`
 	- `git config credential.helper store`
 	- `git config --global credential.helper 'cache --timeout=9999999999999'`
+
+- Fonts
+	- `sudo ln -sf /etc/fonts/conf.avail/75-joypixels.conf /etc/fonts/conf.d/75-joypixels.conf`
 
 - ### [Swap File](https://access.redhat.com/solutions/103833)
 	- `sudo fallocate -l 4G /swapfile`
