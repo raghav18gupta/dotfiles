@@ -140,7 +140,7 @@
 	- Package Control
 	- Side Bar
 
-- Firefox config
+- Firefox config (about:config)
 	- `toolkit.tabbox.switchByScrolling`: `true`
 
 - Keyboard
