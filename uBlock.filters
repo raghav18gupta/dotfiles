@@ -20,4 +20,4 @@ indianexpress.com##+js(ra.js, id, nav)
 www.youtube.com###chat
 www.youtube.com##div[id="clarify-box"]
 www.youtube.com##div[id="sponsor-button"]
-www.youtube.com##.ytp-chrome-top
+www.youtube.com##.ytp-title-fullerscreen-link.yt-uix-sessionlink.ytp-title-link
